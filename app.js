@@ -1,1 +1,18 @@
-console.log("app.js file is loaded");
+const http = require("http");
+
+const hostname = "localhost";
+const port = 3000;
+
+const server = http.createServer((req, res) => {
+  //console.log(typeof "he");
+  //console.log(res);
+  res.statusCode = 200;
+  res.setHeader("Content-Type", "text/plain");
+  res.end("<h1>Hello World</h1", "utf8", () => {
+    console.log("This is the callback");
+  });
+});
+
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
