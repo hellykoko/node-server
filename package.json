@@ -1,0 +1,14 @@
+{
+  "name": "kellys-node-env",
+  "version": "1.0.0",
+  "description": "Kelly's first node.js runtime environment",
+  "main": "app.html",
+  "repository": "git+https://github.com/hellykoko/node-server.git",
+  "keywords": [],
+  "author": "Kelly Hodis",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/hellykoko/node-server/issues"
+  },
+  "dependencies": {}
+}
